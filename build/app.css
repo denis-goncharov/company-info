@@ -1,0 +1,243 @@
+ion-icon {
+  font-size: 20px;
+  align-self: center;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  color: #bbb9b9;
+  background-color: #2e2e2e;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.company-info > .name {
+  border: 1px solid #636363;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  line-height: 48px;
+  font-size: 1.2em;
+}
+.company-info > .name > span {
+  margin-left: 10px;
+}
+.company-info > .name > ion-icon {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.company-info > .address {
+  border: 1px solid #636363;
+  border-top-width: 0px;
+  line-height: 38px;
+  font-size: 1em;
+}
+.company-info > .address > span {
+  margin-left: 20px;
+}
+.company-info > .attach {
+  border: 1px solid #636363;
+  border-top-width: 0px;
+  line-height: 38px;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+}
+.company-info > .attach > span {
+  margin-left: 20px;
+  flex: 1;
+  align-self: center;
+}
+.company-info > .attach > .button {
+  border: 1px dotted #636363;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.company-info > .attach > .button > span {
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+.company-info > .attach > .button ion-icon {
+  font-size: 16px;
+}
+.company-info > .additional {
+  display: flex;
+  flex-direction: row;
+  border-color: #636363;
+  border-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+}
+.company-info > .additional > .row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.company-info > .additional > .row > .additional-row-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.company-info > .additional > .row > .additional-row-container.border-left {
+  border-left: 1px solid #636363;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  line-height: 38px;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > span {
+  margin-left: 20px;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  flex: 1;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column.border-left {
+  border-left: 1px solid #636363;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column.width {
+  flex-grow: 4;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column.center {
+  justify-content: center;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .owner > span {
+  margin-left: 20px;
+  vertical-align: center;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .value {
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .value.border-bottom {
+  border-bottom: 1px solid #636363;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .value.left {
+  justify-content: flex-start;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .value.left > span {
+  margin-left: 20px;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .caption {
+  display: flex;
+  flex-grow: 2;
+  color: #817f7f;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .caption > span {
+  margin-left: 20px;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .caption.border-bottom {
+  border-bottom: 1px solid #636363;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .icon {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.company-info > .additional > .row > .additional-row-container > .additional-row > .column > .icon.border-bottom {
+  border-bottom: 1px solid #636363;
+}
+
+.planContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffb800;
+  color: #2d2d2d;
+  max-width: 680px;
+  border: 1px solid #ffb800;
+  line-height: 28px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.planContainer > .caption > span {
+  margin-left: 20px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.planContainer > .caption.border-left {
+  border-left: 1px solid #b3b1b1;
+  margin-left: 20px;
+}
+.planContainer > .value {
+  font-size: 1em;
+}
+.planContainer > .value.width {
+  flex: 1;
+}
+.planContainer > .left-corner {
+  width: 10px;
+  height: 10px;
+  margin-top: -12px;
+  margin-left: -1px;
+  position: absolute;
+  background-color: #ffb800;
+  border-left: 1px solid #ffb800;
+  border-bottom: 1px solid #ffb800;
+}
+.planContainer > .left-corner > .corner {
+  width: 10px;
+  height: 10px;
+  border-bottom-left-radius: 14px;
+  background-color: #2e2e2e;
+  border-right: 1px solid #2e2e2e;
+  border-top: 1px solid #2e2e2e;
+}
+.planContainer > .right-corner {
+  display: none;
+  width: 10px;
+  height: 10px;
+  margin-top: -12px;
+  margin-right: -1px;
+  background-color: #ffb800;
+  border-right: 1px solid #ffb800;
+  border-bottom: 1px solid #ffb800;
+}
+.planContainer > .right-corner > .corner {
+  width: 10px;
+  height: 10px;
+  border-bottom-right-radius: 14px;
+  background-color: #2e2e2e;
+}
+
+@media (max-width: 680px), screen and (orientation: portrait) {
+  .company-info > .additional {
+    display: flex;
+    flex-direction: column;
+  }
+  .company-info > .additional > .row {
+    width: 100%;
+  }
+  .company-info > .additional > .row > .additional-row-container {
+    border: 0px;
+  }
+  .company-info > .additional > .row > .additional-row-container.border-left {
+    border: 0px;
+  }
+  .company-info > .additional > .row.border-bottom {
+    border-bottom: 1px solid #636363;
+  }
+
+  .planContainer {
+    max-width: 100%;
+  }
+  .planContainer > .right-corner {
+    display: block;
+  }
+}
+body {
+  background-color: #2a2a2a;
+  padding: 20px;
+}
